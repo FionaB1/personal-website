@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 255, 255, 1);
+}
+
+div {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    border-radius: 2%;
+}
+
+img {
+    border-radius: 10%;
+    height: 200px;
+}
