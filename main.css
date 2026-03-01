@@ -1,14 +1,9 @@
 body {
+    margin: 0;
     background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 p{
@@ -16,15 +11,45 @@ p{
     color: rgb(1, 32, 71);
 }
 
-h1, li{
-    color: rgb(6, 230, 10); 
-    background-color: rgb(0, 63, 0); 
-    width: fit-content;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 63, 0);
+}
+
+ul li {
+  margin-left: 10px;
+  float: left;
+}
+
+ul li a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+  color: rgb(6, 230, 10); 
+  background-color: rgb(0, 63, 0); 
+  width: fit-content;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;      /* Rounds the corners */
+  background-color: #011163;
+  color:rgb(3, 200, 255)
 }
 
 div {
     margin-left: 15%;
     margin-right:15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 15px;
     text-align: center;
     background-color: rgba(0, 255, 255, 0.2); 
@@ -36,4 +61,9 @@ img {
     max-width: 400px;
     border-radius: 10%;
     max-height: 200px;
+}
+
+#current {
+    text-decoration: underline;
+    text-decoration-color: rgb(6, 230, 10);
 }
